@@ -39,6 +39,8 @@
 		else
 		{
 			
+		$dosya=fopen(".txt","a");
+                $yazilacak=$_POST["no"],"-",$_POST["adi"],"-",$_POST["soyadi"],"\n";
 			
 			
 			
